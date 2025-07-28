@@ -128,7 +128,15 @@
                                         <ul class="drop-down-multilevel">
                                             <li><a href="#">Introduction </a></li>
                                             <li><a href="#">National Executive Committee</a></li>
-                                            <li><a href="#">EX-NATIONAL EXECUTIVE COMMITTEES</a></li>
+                                           
+                                        <li class="hoverTrigger"><a href="javascript:void(0)">EX-NATIONAL EXECUTIVE COMMITTEES<i class="fa fa-angle-right fa-indicator"></i><div class="mobileTriggerButton"></div></a>
+                                                <!-- drop down second level -->
+                                                <ul class="drop-down-multilevel effect-fade" style="transition: 400ms;">
+                                                    <li><a href="#">Ex-NEC (2070-2074)</a></li>
+                                                    <li><a href="#">Ex-NEC 2075-2079</a></li>
+                                                    
+                                                </ul>
+                                            </li>
                                             <li><a href="#">District Branches</a></li>
                                             <li><a href="#">Our Journey</a></li>
                                             <li><a href="#">Life Time Members</a></li>

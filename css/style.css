@@ -3746,6 +3746,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0;
   font-weight: 600;
   color: #DB8600;
+  margin-bottom: 20px;
 }
 
 h1 {
@@ -7837,6 +7838,63 @@ typography .touch-in .contact-box .contact-icon {
   display: block;
   margin-bottom: 10px;
   padding-right: 0;
+}
+
+/* Sidebar */
+.sidebar {
+  gap: 30px;
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 100px; /* The space for your header */
+}
+.sidebar h3 {
+  margin-bottom: 20px;
+}
+.sidebar .sidebar-detail ul {
+  list-style: none;
+}
+.sidebar .sidebar-detail ul li {
+  margin-bottom: 10px;
+}
+.sidebar .sidebar-detail ul li a {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  line-height: 1.2;
+}
+
+.table tr td ul {
+  list-style: none;
+}
+
+.table tr.row1 td {
+  background: #00a48d;
+  color: #fff;
+  vertical-align: middle;
+}
+
+.table tr.row2 td {
+  background: #246678;
+  color: #fff;
+  vertical-align: middle;
+}
+
+.table tr.row3 td {
+  background: #8c0e8a;
+  color: #ffffff;
+  vertical-align: middle;
+}
+
+.table tr.row4 td {
+  background: rgb(180, 31, 61);
+  color: #fff;
+  vertical-align: middle;
+}
+
+.table tr.row5 td {
+  background: #110133;
+  color: #fff;
+  vertical-align: middle;
 }
 
 /*# sourceMappingURL=style.css.map */
