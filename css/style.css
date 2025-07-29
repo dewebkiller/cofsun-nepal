@@ -844,6 +844,11 @@ NOTE:
 /***************************
      Loading
 ***************************/
+img.img-fluid {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
 #loading {
   background-color: rgb(247, 247, 247);
   height: 100%;
@@ -6890,6 +6895,7 @@ div#main {
 .studies-entry .entry-image {
   position: relative;
   overflow: hidden;
+  border: 1px solid #eeeeee;
 }
 .studies-entry .entry-image .entry-overlay {
   background: rgba(0, 107, 52, 0.8);
@@ -6906,7 +6912,7 @@ div#main {
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-.studies-entry .entry-image .entry-overlay a {
+.studies-entry .entry-image .entry-overlay a, .studies-entry .entry-image .entry-overlay span.ti-zoom-in {
   font-size: 30px;
   color: #ffffff;
   text-align: center;
@@ -7338,7 +7344,7 @@ div#main {
   position: relative;
 }
 .intro-title .intro-content .intro-name {
-  padding: 100px 500px 100px 0px;
+  padding: 100px 0 100px 0px;
   position: relative;
   z-index: 9;
 }

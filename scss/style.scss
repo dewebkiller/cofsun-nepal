@@ -2113,6 +2113,7 @@ div#main {
   .entry-image {
     position: relative;
     overflow: hidden;
+    border: 1px solid #eeeeee;
     .entry-overlay {
       background: rgba($theme-color, 0.8);
       bottom: 0;
@@ -2123,7 +2124,7 @@ div#main {
       height: 100%;
       opacity: 0;
       @include transition(all, 0.5s, ease);
-      a {
+      a, span.ti-zoom-in {
         font-size: 30px;
         color: $white;
         text-align: center;
@@ -2541,7 +2542,7 @@ div#main {
   .intro-content {
     position: relative;
     .intro-name {
-      padding: 100px 500px 100px 0px;
+      padding: 100px 0 100px 0px;
       position: relative;
       z-index: 9;
     }
