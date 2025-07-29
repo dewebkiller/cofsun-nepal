@@ -165,7 +165,14 @@
                                                 <div class="grid-col-6">
                                                     <h4>Completed Projects</h4>
                                                     <ul>
-                                                        <li><a href="#">Improving Implementation</a></li>
+                                                    <li class="hoverTrigger"><a href="javascript:void(0)">2018-2019<i class="fa fa-angle-right fa-indicator"></i><div class="mobileTriggerButton"></div></a>
+                                                <!-- drop down second level -->
+                                                <ul class="drop-down-multilevel effect-fade" style="transition: 400ms;">
+                                                    <li><a href="#">N. Interaction on Forest & Env. policy & practices</a></li>
+                                                    <li><a href="#">Revision of Operation Plan of Community Forest</a></li>
+                                                    
+                                                </ul>
+                                            </li>
                                                         <li><a href="#">Multi-stakeholder dialogue</a></li>
                                                         <li><a href="#">Facilitators’ development</a></li>
                                                         <li><a href="#">Climate change</a></li>

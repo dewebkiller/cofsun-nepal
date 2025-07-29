@@ -576,6 +576,9 @@
 			height: 40px;
 		}
 	}
+	.drop-down ul li a i {
+		margin-left: 10px;
+	}
 	.menu-links {
 		>li {
 			>a {
@@ -594,6 +597,7 @@
 				a {
 					font-size: 13px;
 					font-weight: $font-med-bold;
+					padding: 10px 15px;
 					&:before {
 						content: '';
 						display: inline-block;

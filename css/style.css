@@ -1152,6 +1152,9 @@ NOTE:
 .mega-menu .menu-logo img {
   height: 40px;
 }
+.mega-menu .drop-down ul li a i {
+  margin-left: 10px;
+}
 .mega-menu .menu-links > li > a {
   line-height: 120px;
   text-transform: uppercase;
@@ -1165,6 +1168,7 @@ NOTE:
 .mega-menu .menu-links > li .drop-down-multilevel a {
   font-size: 13px;
   font-weight: 600;
+  padding: 10px 15px;
 }
 .mega-menu .menu-links > li .drop-down-multilevel a:before {
   content: "";
