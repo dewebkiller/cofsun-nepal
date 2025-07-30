@@ -193,39 +193,48 @@ var POTENZA = {};
   /*************************
        Magnific Popup
 *************************/
-  POTENZA.mediaPopups = function () {
-    if ($(".popup-gallery").exists()) {
-      $(".popup-gallery").magnificPopup({
-        delegate: "a.popup-img",
-        type: "image",
-        tLoading: "Loading image #%curr%...",
-        mainClass: "mfp-img-mobile",
-        gallery: {
-          enabled: true,
-          navigateByImgClick: true,
-          preload: [0, 1], // Will preload 0 - before current, and 1 after the current image
+POTENZA.mediaPopups = function () {
+  if ($(".popup-gallery").exists()) {
+    $(".popup-gallery").magnificPopup({
+      delegate: "a.popup-img",
+      type: "image",
+      tLoading: "Loading image #%curr%...",
+      mainClass: "mfp-img-mobile",
+      gallery: {
+        enabled: true,
+        navigateByImgClick: true,
+        preload: [0, 1], // Will preload 0 - before current, and 1 after the current image
+      },
+      image: {
+        tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+        // --- THIS IS THE MODIFIED PART ---
+        titleSrc: function (item) {
+          const title = item.el.attr("title");
+          const description = item.el.data("description"); // Get content from data-description
+
+          // Check if a description exists
+          if (description) {
+            // Return the title and the description on a new line in a <small> tag
+            return title + '<br><small>' + description + '</small>';
+          }
+
+          // Otherwise, just return the title
+          return title;
         },
-        image: {
-          tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
-          titleSrc: function (item) {
-            return (
-              item.el.attr("title") + "<small>by Marsel Van Oosten</small>"
-            );
-          },
-        },
-      });
-    }
-    if ($(".popup-youtube, .popup-vimeo, .popup-gmaps").exists()) {
-      $(".popup-youtube, .popup-vimeo, .popup-gmaps").magnificPopup({
-        disableOn: 700,
-        type: "iframe",
-        mainClass: "mfp-fade",
-        removalDelay: 160,
-        preloader: false,
-        fixedContentPos: false,
-      });
-    }
-  };
+      },
+    });
+  }
+  if ($(".popup-youtube, .popup-vimeo, .popup-gmaps").exists()) {
+    $(".popup-youtube, .popup-vimeo, .popup-gmaps").magnificPopup({
+      disableOn: 700,
+      type: "iframe",
+      mainClass: "mfp-fade",
+      removalDelay: 160,
+      preloader: false,
+      fixedContentPos: false,
+    });
+  }
+};
 
   /*************************
          countdown

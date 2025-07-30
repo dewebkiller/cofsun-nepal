@@ -5,6 +5,9 @@
 ***************************/
 img.img-fluid {
 	width: 100%;
+}
+p > img.img-fluid {
+	width: 100%;
 	margin-bottom: 20px;
 }
 #loading {
@@ -2366,6 +2369,16 @@ img.img-fluid {
 	z-index: 0;
 }
 
+// Gallery 
+.popup-gallery {
+	.entry-image {
+		img {
+			width: 260px;
+			height: 210px;
+			object-fit: cover;
+		}
+	}
+}
 /*blog*/
 .blog-entry {
 	@include transition (all, 0.5s, ease);
