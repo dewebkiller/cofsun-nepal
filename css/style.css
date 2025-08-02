@@ -2916,6 +2916,10 @@ p > img.img-fluid {
   z-index: 0;
 }
 
+.popupgallery-100 img {
+  width: 100% !important;
+}
+
 .popup-gallery .entry-image img {
   width: 260px;
   height: 210px;
@@ -7839,22 +7843,22 @@ ul.list-style-1 li {
 }
 
 /* Contact us */
-typography .touch-in {
+.touch-in {
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
   margin-bottom: 0;
   padding: 60px 0;
   width: 100%;
 }
-typography .touch-in .contact-box {
+.touch-in .contact-box {
   text-align: center;
 }
-typography .touch-in .contact-box .contact-info {
+.touch-in .contact-box .contact-info {
   display: block;
 }
-typography .touch-in .contact-box .contact-info .section-title {
+.touch-in .contact-box .contact-info .section-title {
   margin-bottom: 0px;
 }
-typography .touch-in .contact-box .contact-icon {
+.touch-in .contact-box .contact-icon {
   display: block;
   margin-bottom: 10px;
   padding-right: 0;
