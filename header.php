@@ -29,7 +29,7 @@
 
     <!-- magnific-popup -->
     <link rel="stylesheet" type="text/css" href="css/magnific-popup/magnific-popup.css" />
-    
+
     <!-- revolution -->
     <link rel="stylesheet" type="text/css" href="revolution/css/settings.css" />
 
@@ -128,13 +128,15 @@
                                         <ul class="drop-down-multilevel">
                                             <li><a href="#">Introduction </a></li>
                                             <li><a href="#">National Executive Committee</a></li>
-                                           
-                                        <li class="hoverTrigger"><a href="javascript:void(0)">EX-NATIONAL EXECUTIVE COMMITTEES<i class="fa fa-angle-right fa-indicator"></i><div class="mobileTriggerButton"></div></a>
+
+                                            <li class="hoverTrigger"><a href="javascript:void(0)">EX-NATIONAL EXECUTIVE COMMITTEES<i class="fa fa-angle-right fa-indicator"></i>
+                                                    <div class="mobileTriggerButton"></div>
+                                                </a>
                                                 <!-- drop down second level -->
                                                 <ul class="drop-down-multilevel effect-fade" style="transition: 400ms;">
                                                     <li><a href="#">Ex-NEC (2070-2074)</a></li>
                                                     <li><a href="#">Ex-NEC 2075-2079</a></li>
-                                                    
+
                                                 </ul>
                                             </li>
                                             <li><a href="#">District Branches</a></li>
@@ -150,7 +152,7 @@
                                             <!--grid row-->
                                             <div class="grid-row">
                                                 <!--grid column 3-->
-                                                <div class="grid-col-6">
+                                                <div class="grid-col-4">
                                                     <h4>Ongoing Projects</h4>
                                                     <ul>
                                                         <li><a href="#">Skill accreditation </a></li>
@@ -162,26 +164,70 @@
                                                     </ul>
                                                 </div>
                                                 <!--grid column 3-->
-                                                <div class="grid-col-6">
+                                                <div class="grid-col-4">
                                                     <h4>Completed Projects</h4>
                                                     <ul>
-                                                    <li class="hoverTrigger"><a href="javascript:void(0)">2018-2019<i class="fa fa-angle-right fa-indicator"></i><div class="mobileTriggerButton"></div></a>
-                                                <!-- drop down second level -->
-                                                <ul class="drop-down-multilevel effect-fade" style="transition: 400ms;">
-                                                    <li><a href="#">N. Interaction on Forest & Env. policy & practices</a></li>
-                                                    <li><a href="#">Revision of Operation Plan of Community Forest</a></li>
-                                                    
-                                                </ul>
-                                            </li>
-                                                        <li><a href="#">Multi-stakeholder dialogue</a></li>
-                                                        <li><a href="#">Facilitators’ development</a></li>
-                                                        <li><a href="#">Climate change</a></li>
-                                                        <li><a href="#">Community Forestry</a></li>
-                                                        <li><a href="#">Civic Leadership</a></li>
+                                                        <li class="hoverTrigger"><a href="javascript:void(0)">2018-2019<i class="fa fa-angle-right fa-indicator"></i>
+                                                                <div class="mobileTriggerButton"></div>
+                                                            </a>
+                                                            <!-- drop down second level -->
+                                                            <ul class="drop-down-multilevel effect-fade" style="transition: 400ms;">
+                                                                <li><a href="#">N. Interaction on Forest & Env. policy & practices</a></li>
+                                                                <li><a href="#">Revision of Operation Plan of Community Forest</a></li>
+
+                                                            </ul>
+                                                        </li>
+                                                        <li class="hoverTrigger"><a href="javascript:void(0)">2017-2018<i class="fa fa-angle-right fa-indicator"></i>
+                                                                <div class="mobileTriggerButton"></div>
+                                                            </a>
+                                                            <!-- drop down second level -->
+                                                            <ul class="drop-down-multilevel effect-fade" style="transition: 400ms;">
+                                                                <li><a href="#">REDD+ Awareness Program to Stakeholders</a></li>
+                                                                <li><a href="#">REDD+ TOT and Workshop</a></li>
+                                                                <li><a href="#">Fourth General Assembly and Conference on Forestry Facilitators</a></li>
+
+                                                            </ul>
+                                                        </li>
+                                                        <li class="hoverTrigger"><a href="javascript:void(0)">2016-2017<i class="fa fa-angle-right fa-indicator"></i>
+                                                                <div class="mobileTriggerButton"></div>
+                                                            </a>
+                                                            <!-- drop down second level -->
+                                                            <ul class="drop-down-multilevel effect-fade" style="transition: 400ms;">
+                                                                <li><a href="#">ICA of NRM Groups</a></li>
+                                                                <li><a href="mtot-representatives.php">MTOT-DRR & CCA for CFUGs Representatives</a></li>
+                                                                <li><a href="fgd-for-sharing.php">FGD for sharing and reviewing Nepal’s ER-PD</a></li>
+                                                                <li><a href="consultations-for-developing-nepals-erpd.php">Consultations for Developing Nepal's ER-PD</a></li>
+
+                                                            </ul>
+                                                        </li>
+                                                        <li class="hoverTrigger"><a href="javascript:void(0)">Strengthening Governance of CFUGs<i class="fa fa-angle-right fa-indicator"></i>
+                                                                <div class="mobileTriggerButton"></div>
+                                                            </a>
+                                                            <!-- drop down second level -->
+                                                            <ul class="drop-down-multilevel effect-fade" style="transition: 400ms;">
+                                                                <li><a href="samudayik-ban-sansthagat.php">सामुदायिक वन संस्थागत सुशासन सृदृढीकरण कार्यक्रम</a></li>
+                                                                <li><a href="samudayik-ban-upabhokta.php">सा. व. उ. स. को संस्थागत सुशासन सृदृढीकरण कार्यक्रमका झलकहरु</a></li>
+                                                                
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="improving-implementation.php">Improving Implementation</a></li>
+                                                        <li><a href="multi-stakeholder.php">Multi-stakeholder dialogue</a></li>
+                                                        <li><a href="facilitators-development.php">Facilitators’ development</a></li>
                                                     </ul>
                                                 </div>
 
-
+                                                <div class="grid-col-4">
+                                                    <h4>&nbsp;</h4>
+                                                    <ul>
+                                                        <li><a href="climate-change.php">Climate change </a></li>
+                                                        <li><a href="community-forestry.php">Community Forestry</a></li>
+                                                        <li><a href="civic-leadership.php">Civic Leadership</a></li>
+                                                        <li><a href="strengthening-institutional.php">Strengthening Institutional</a></li>
+                                                        <li><a href="final-advocacy.php">Final Advocacy</a></li>
+                                                        <li><a href="social-mobilization.php">Social Mobilization</a></li>
+                                                        <li><a href="climate-change-policy.php">Climate Change Policy</a></li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
                                     </li>

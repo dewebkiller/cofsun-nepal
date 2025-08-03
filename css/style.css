@@ -2920,6 +2920,10 @@ p > img.img-fluid {
   width: 100% !important;
 }
 
+.dwk-accordion-desc {
+  padding: 0 0 40px 0;
+}
+
 .popup-gallery .entry-image img {
   width: 260px;
   height: 210px;
