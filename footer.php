@@ -8,11 +8,11 @@ footer -->
                 <div class="col-lg-8 col-md-6">
                     <div class="footer-nav">
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Our Journey</a></li>
-                            <li><a href="#">Publications</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="./">Home</a></li>
+                            <li><a href="introduction.php">About Us</a></li>
+                            <li><a href="our-journey.php">Our Journey</a></li>
+                            <li><a href="publications.php">Publications</a></li>
+                            <li><a href="contact.php">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>
@@ -56,39 +56,39 @@ footer -->
                             <div class="col-md-4">
                                 <ul>
                                     <li>
-                                        <a href="#"> <i class="fa fa-angle-right"></i> Bidhan </a>
+                                        <a href="assets/publications/Bidhan-of-COFSUN-Nepal.pdf"> <i class="fa fa-angle-right"></i> Bidhan </a>
                                     </li>
                                     <li>
-                                        <a href="#"> <i class="fa fa-angle-right"></i> Ban Abhiyan</a>
+                                        <a href="assets/publications/Ban-Abhiyan_Full-Final-edited-design1.pdf"> <i class="fa fa-angle-right"></i> Ban Abhiyan</a>
                                     </li>
                                     <li>
-                                        <a href="#"> <i class="fa fa-angle-right"></i> Membership Form</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-md-4">
-                                <ul>
-                                    <li>
-                                        <a href="#"> <i class="fa fa-angle-right"></i> Condolence 11 </a>
-                                    </li>
-                                    <li>
-                                        <a href="#"> <i class="fa fa-angle-right"></i> Condolence 12</a>
-                                    </li>
-                                    <li>
-                                        <a href="#"> <i class="fa fa-angle-right"></i> Ex-NEC 2075-2079</a>
+                                        <a href="assets/COFSUN-Membership-Form.pdf"> <i class="fa fa-angle-right"></i> Membership Form</a>
                                     </li>
                                 </ul>
                             </div>
                             <div class="col-md-4">
                                 <ul>
                                     <li>
-                                        <a href="#"> <i class="fa fa-angle-right"></i> Life Time Members </a>
+                                        <a href="condolence1.php"> <i class="fa fa-angle-right"></i> Condolence 1 </a>
                                     </li>
                                     <li>
-                                        <a href="#"> <i class="fa fa-angle-right"></i> General Members</a>
+                                        <a href="condolence2.php"> <i class="fa fa-angle-right"></i> Condolence 2</a>
                                     </li>
                                     <li>
-                                        <a href="#"> <i class="fa fa-angle-right"></i> Kalyankari Members </a>
+                                        <a href="ex-national-executive-2075-2079.php"> <i class="fa fa-angle-right"></i> Ex-NEC 2075-2079</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4">
+                                <ul>
+                                    <li>
+                                        <a href="life-time-members.php"> <i class="fa fa-angle-right"></i> Life Time Members </a>
+                                    </li>
+                                    <li>
+                                        <a href="general-members.php"> <i class="fa fa-angle-right"></i> General Members</a>
+                                    </li>
+                                    <li>
+                                        <a href="kalyankari-members.php"> <i class="fa fa-angle-right"></i> Kalyankari Members </a>
                                     </li>
                                 </ul>
                             </div>
@@ -139,7 +139,7 @@ footer -->
                     <div class="col-md-6">
                         <ul class="list-inline text-left">
                            <li><a href="#">Terms & Conditions </a> &nbsp;&nbsp;&nbsp;|</li>
-                           <li><a href="#">Privacy Policy </a> &nbsp;&nbsp;&nbsp;|</li>
+                           <li><a href="#">Privacy Policy </a> &nbsp;&nbsp;&nbsp;</li>
                         </ul>
                     </div>
                     <div class="col-md-6">

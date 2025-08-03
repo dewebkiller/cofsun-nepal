@@ -121,29 +121,29 @@
                                 <!-- menu links -->
                                 <ul class="menu-links">
                                     <!-- active class -->
-                                    <li class="active"><a href="javascript:void(0)"> Home </a></li>
+                                    <li class="active"><a href="./"> Home </a></li>
                                     <!-- active class -->
                                     <li><a href="javascript:void(0)"> About <i class="fa fa-angle-down fa-indicator"></i></a>
                                         <!-- drop down multilevel -->
                                         <ul class="drop-down-multilevel">
-                                            <li><a href="#">Introduction </a></li>
-                                            <li><a href="#">National Executive Committee</a></li>
+                                            <li><a href="introduction.php">Introduction </a></li>
+                                            <li><a href="national-executive-committee.php">National Executive Committee</a></li>
 
                                             <li class="hoverTrigger"><a href="javascript:void(0)">EX-NATIONAL EXECUTIVE COMMITTEES<i class="fa fa-angle-right fa-indicator"></i>
                                                     <div class="mobileTriggerButton"></div>
                                                 </a>
                                                 <!-- drop down second level -->
                                                 <ul class="drop-down-multilevel effect-fade" style="transition: 400ms;">
-                                                    <li><a href="#">Ex-NEC (2070-2074)</a></li>
-                                                    <li><a href="#">Ex-NEC 2075-2079</a></li>
+                                                    <li><a href="ex-national-executive-2070-2074.php">Ex-NEC (2070-2074)</a></li>
+                                                    <li><a href="ex-national-executive-2075-2079.php">Ex-NEC 2075-2079</a></li>
 
                                                 </ul>
                                             </li>
-                                            <li><a href="#">District Branches</a></li>
-                                            <li><a href="#">Our Journey</a></li>
-                                            <li><a href="#">Life Time Members</a></li>
-                                            <li><a href="#">General Members</a></li>
-                                            <li><a href="#">Kalyankari Members</a></li>
+                                            <li><a href="district-branches.php">District Branches</a></li>
+                                            <li><a href="our-journey.php">Our Journey</a></li>
+                                            <li><a href="life-time-members.php">Life Time Members</a></li>
+                                            <li><a href="general-members.php">General Members</a></li>
+                                            <li><a href="kalyankari-members.php">Kalyankari Members</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="javascript:void(0)">Projects <i class="fa fa-angle-down fa-indicator"></i></a>
@@ -155,12 +155,12 @@
                                                 <div class="grid-col-4">
                                                     <h4>Ongoing Projects</h4>
                                                     <ul>
-                                                        <li><a href="#">Skill accreditation </a></li>
-                                                        <li><a href="#">Skill Test Level 1</a></li>
-                                                        <li><a href="#">Skill Test Level 2</a></li>
-                                                        <li><a href="#">Developing Multi</a></li>
-                                                        <li><a href="#">Analysis and publicizing</a></li>
-                                                        <li><a href="#">Issue based</a></li>
+                                                        <li><a href="skill-accreditation.php">Skill accreditation </a></li>
+                                                        <li><a href="skill-test-level-1.php">Skill Test Level 1</a></li>
+                                                        <li><a href="skill-test-level-2.php">Skill Test Level 2</a></li>
+                                                        <li><a href="developing-multi-stakeholder.php">Developing Multi</a></li>
+                                                        <li><a href="analysis-publicizing.php">Analysis and publicizing</a></li>
+                                                        <li><a href="issue-based.php">Issue based</a></li>
                                                     </ul>
                                                 </div>
                                                 <!--grid column 3-->
@@ -172,8 +172,8 @@
                                                             </a>
                                                             <!-- drop down second level -->
                                                             <ul class="drop-down-multilevel effect-fade" style="transition: 400ms;">
-                                                                <li><a href="#">N. Interaction on Forest & Env. policy & practices</a></li>
-                                                                <li><a href="#">Revision of Operation Plan of Community Forest</a></li>
+                                                                <li><a href="national-interaction-on-forest-and-environment.php">N. Interaction on Forest & Env. policy & practices</a></li>
+                                                                <li><a href="revision-of-operation.php">Revision of Operation Plan of Community Forest</a></li>
 
                                                             </ul>
                                                         </li>
@@ -182,9 +182,9 @@
                                                             </a>
                                                             <!-- drop down second level -->
                                                             <ul class="drop-down-multilevel effect-fade" style="transition: 400ms;">
-                                                                <li><a href="#">REDD+ Awareness Program to Stakeholders</a></li>
-                                                                <li><a href="#">REDD+ TOT and Workshop</a></li>
-                                                                <li><a href="#">Fourth General Assembly and Conference on Forestry Facilitators</a></li>
+                                                                <li><a href="redd-awareness-program.php">REDD+ Awareness Program to Stakeholders</a></li>
+                                                                <li><a href="redd-tot.php">REDD+ TOT and Workshop</a></li>
+                                                                <li><a href="fourth-general-assembly.php">Fourth General Assembly and Conference on Forestry Facilitators</a></li>
 
                                                             </ul>
                                                         </li>
@@ -193,7 +193,7 @@
                                                             </a>
                                                             <!-- drop down second level -->
                                                             <ul class="drop-down-multilevel effect-fade" style="transition: 400ms;">
-                                                                <li><a href="#">ICA of NRM Groups</a></li>
+                                                                <li><a href="ica-nrm-group.php">ICA of NRM Groups</a></li>
                                                                 <li><a href="mtot-representatives.php">MTOT-DRR & CCA for CFUGs Representatives</a></li>
                                                                 <li><a href="fgd-for-sharing.php">FGD for sharing and reviewing Nepal’s ER-PD</a></li>
                                                                 <li><a href="consultations-for-developing-nepals-erpd.php">Consultations for Developing Nepal's ER-PD</a></li>
@@ -234,20 +234,20 @@
                                     <li><a href="javascript:void(0)">Resources <i class="fa fa-angle-down fa-indicator"></i></a>
                                         <!-- drop down multilevel -->
                                         <ul class="drop-down-multilevel">
-                                            <li><a href="#">Publications</a></li>
-                                            <li><a href="#">Documents/Articles</a></li>
-                                            <li><a href="#">Photo Gallery</a></li>
-                                            <li><a href="#">Video Gallery</a></li>
+                                            <li><a href="publications.php">Publications</a></li>
+                                            <li><a href="documents-articles.php">Documents/Articles</a></li>
+                                            <li><a href="photo-gallery.php">Photo Gallery</a></li>
+                                            <li><a href="video-gallery.php">Video Gallery</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="javascript:void(0)">Opportunity <i class="fa fa-angle-down fa-indicator"></i></a>
                                         <!-- drop down multilevel -->
                                         <ul class="drop-down-multilevel">
-                                            <li><a href="#">Vacancy</a></li>
-                                            <li><a href="#">Tender</a></li>
-                                            <li><a href="#">Notice</a></li>
-                                            <li><a href="#">Membership Form</a></li>
-                                            <li><a href="#">case studies full screen</a></li>
+                                            <li><a href="vacancy.php">Vacancy</a></li>
+                                            <li><a href="tender.php">Tender</a></li>
+                                            <li><a href="notice.php">Notice</a></li>
+                                            <li><a href="assets/COFSUN-Membership-Form.pdf">Membership Form</a></li>
+                                           
                                         </ul>
                                     </li>
 
@@ -260,7 +260,7 @@
                                                 <div class="grid-col-3">
                                                     <h4>Notice</h4>
                                                     <ul>
-                                                        <li><a href="#">Invitation of 16th COFSUN Anniversary</a></li>
+                                                        <li><a href="notice-16-anniversary.php">Invitation of 16th COFSUN Anniversary</a></li>
 
                                                     </ul>
                                                 </div>
@@ -268,36 +268,38 @@
                                                 <div class="grid-col-3">
                                                     <h4>News</h4>
                                                     <ul>
-                                                        <li><a href="#">13th Anniversary of COFSUN, Nepal</a></li>
-                                                        <li><a href="#">Community forestry day 2073</a></li>
-                                                        <li><a href="#">Invitation for Ban Chautari Dolakha</a></li>
-                                                        <li><a href="#">कफ्सन नवलपरासीको अधिवेशन २०७३</a></li>
-                                                        <li><a href="#">Ban Chautari Invitation Raja-Po</a></li>
-                                                        <li><a href="#">12th COFSUN Day</a></li>
+                                                        <li><a href="news-13-anniversary.php">13th Anniversary of COFSUN, Nepal</a></li>
+                                                        <li><a href="community-forestry-day-2073.php">Community forestry day 2073</a></li>
+                                                        <li><a href="invitation-ban-chautari-dolkha.php">Invitation for Ban Chautari Dolakha</a></li>
+                                                        <li><a href="cofsun-nawalparasi.php">कफ्सन नवलपरासीको अधिवेशन २०७३</a></li>
+                                                        <li><a href="ban-chautari-bardia.php">Ban Chautari Invitation Raja-Po</a></li>
+                                                        <li><a href="cofsun-day-12.php">12th COFSUN Day</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="grid-col-3">
                                                     <h4>Greetings</h4>
                                                     <ul>
-                                                        <li><a href="#">बधाई तथा शुभकामना</a></li>
-                                                        <li><a href="#">Happy New Year</a></li>
-                                                        <li><a href="#">Greeting of Festivals</a></li>
+                                                        <li><a href="subhakamana.php">बधाई तथा शुभकामना</a></li>
+                                                        <li><a href="happy-new-year.php">Happy New Year</a></li>
+                                                        <li><a href="greetings-festivlas.php">Greeting of Festivals</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="grid-col-3">
                                                     <h4>Condolence</h4>
                                                     <ul>
-                                                        <li><a href="#">Condolence 1</a></li>
-                                                        <li><a href="#">Condolence 2</a></li>
-                                                        <li><a href="#">Condolence 3</a></li>
-                                                        <li><a href="#">Condolence 4</a></li>
+                                                        <li><a href="condolence1.php">Condolence 1</a></li>
+                                                        <li><a href="condolence2.php">Condolence 2</a></li>
+                                                        <li><a href="condolence3.php">Condolence 3</a></li>
+                                                        <li><a href="condolence4.php">Condolence 4</a></li>
+                                                        <li><a href="condolence5.php">Condolence 5</a></li>
+                                                        <li><a href="condolence6.php">Condolence 6</a></li>
                                                     </ul>
                                                 </div>
                                             </div>
                                         </div>
                                     </li>
-                                    <li><a href="javascript:void(0)"> Contact Us </a></li>
-                                    <li><a href="javascript:void(0)"> Support Us </a></li>
+                                    <li><a href="contact.php"> Contact Us </a></li>
+                                    <li><a href="support.php"> Support Us </a></li>
                                 </ul>
                             </div>
 

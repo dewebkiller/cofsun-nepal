@@ -1,9 +1,9 @@
 /*
 
 Template:  
-Author: potenzaglobalsolutions.com
+Author: dewebkiller.com
 Version:  
-Design and Developed by: potenzaglobalsolutions.com
+Design and Developed by: dewebkiller.com
 
 NOTE:  
 
